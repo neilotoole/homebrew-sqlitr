@@ -2,12 +2,12 @@
 class Sqlitr < Formula
   desc "sqlitr is a trivial Go/CGo SQLite CLI"
   homepage "https://github.com/neilotoole/sqlitr"
-  version "0.1.11"
+  version "0.1.12"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/neilotoole/sqlitr/releases/download/v0.1.11/sqlitr_0.1.11_darwin_amd64.tar.gz"
-    sha256 "519f3a4a80ffc8f8f7d5bd86a36292fac749d0fe99536e43d89cdec625176ccf"
+    url "https://github.com/neilotoole/sqlitr/releases/download/v0.1.12/sqlitr_0.1.12_darwin_amd64.tar.gz"
+    sha256 "bde4019b4d1a3e19dd26912d3b658fca20afcb51417efe0ad3eb066073828d1e"
   elsif OS.linux?
   end
 
